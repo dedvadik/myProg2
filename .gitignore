@@ -225,3 +225,5 @@ AppPackages/
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
 .fake
+mainFolder/obj/Debug/net8.0/mainFolder.AssemblyInfo.cs
+mainFolder/obj/Debug/net8.0/mainFolder.AssemblyInfoInputs.cache
