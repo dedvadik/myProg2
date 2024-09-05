@@ -41,9 +41,9 @@ foreach (string name in studentNames)
     int sumAssignmentScores = 0;
 
     decimal currentStudentGrade;
-    decimal examStudentScore = 0;       //переменная для отображения отметки без дополнительных баллов
-    decimal extraCreditScore = 0;       //переменная для отображения числа без доп баллов, в поле где указанно кол-во доп баллов 
-    decimal differenceScore = 0;        //переменная для отображения кол-ва баллов которые добавляются за доп задания 
+    decimal examStudentScore = 0;       //--переменная для отображения отметки без дополнительных баллов//
+    decimal extraCreditScore = 0;       //--переменная для отображения числа без доп баллов, в поле где указанно кол-во доп баллов// 
+    decimal differenceScore = 0;        //--переменная для отображения кол-ва баллов которые добавляются за доп задания// 
 
     string grade(decimal currentStudentGrade)
     {
