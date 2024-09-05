@@ -9,8 +9,6 @@ int[] studentScores = new int[10];
 
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
-string currentStudentLetterGrade = "";
-
 Console.WriteLine("Student\t\tGrade\n");
 
 foreach (string name in studentNames)
@@ -62,18 +60,16 @@ foreach (string name in studentNames)
         else
             return "F";
     }
+
+    foreach (int score in studentScores)
     {
-        foreach (int score in studentScores)
-        {
-
-            sumAssignmentScores += score;
-
-        }
-
-        currentStudentGrade = (decimal)sumAssignmentScores / currentAssignments;
-
-        Console.WriteLine($"{currentStudent}:\t\t {currentStudentGrade} \t{grade(currentStudentGrade)}");
+        sumAssignmentScores += score;
     }
+
+    currentStudentGrade = (decimal)sumAssignmentScores / currentAssignments;
+
+    Console.WriteLine($"{currentStudent}:\t\t {currentStudentGrade} \t{grade(currentStudentGrade)}");
+
 }
 
 Console.WriteLine("Press the Enter key to continue");
