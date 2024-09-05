@@ -97,5 +97,5 @@ foreach (string name in studentNames)
 
 }
 
-Console.WriteLine("Press the Enter key to continue");
+Console.WriteLine("\nPress the Enter key to continue");
 Console.ReadLine();
