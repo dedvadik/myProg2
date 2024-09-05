@@ -13,7 +13,7 @@ int[] studentScores = new int[10];
 
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan", "Becky", "Chris", "Eric", "Gregor" };
 
-Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Student\t\tExam Score\tOverall\tGrade\tExtra Credit\n");
 
 foreach (string name in studentNames)
 {
@@ -40,7 +40,9 @@ foreach (string name in studentNames)
 
     int sumAssignmentScores = 0;
 
-    decimal currentStudentGrade;
+    decimal currentStudentGrade; 
+    decimal examStudentScore = 0;       //переменная с которой надо взаимодействовать 
+    decimal extraCreditScore = 0;       //переменная с которой надо взаимодействовать
 
     string grade(decimal currentStudentGrade)
     {
@@ -90,9 +92,9 @@ foreach (string name in studentNames)
 
     currentStudentGrade = (decimal)sumAssignmentScores / examAssignments;
 
-    Console.WriteLine($"{currentStudent}:\t\t {currentStudentGrade} \t{grade(currentStudentGrade)}");
+    Console.WriteLine($"{currentStudent}:\t\t{examStudentScore}\t\t{currentStudentGrade}\t{grade(currentStudentGrade)}\t {extraCreditScore}");
 
-}
+    }
 
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
