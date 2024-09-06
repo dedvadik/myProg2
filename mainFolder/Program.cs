@@ -41,9 +41,9 @@ foreach (string name in studentNames)
     int sumAssignmentScores = 0;
 
     decimal currentStudentGrade;
-    decimal examStudentScore = 0;       //--переменная для отображения отметки без дополнительных баллов//
-    decimal extraCreditScore = 0;       //--переменная для отображения числа без доп баллов, в поле где указанно кол-во доп баллов// 
-    decimal differenceScore = 0;        //--переменная для отображения кол-ва баллов которые добавляются за доп задания// 
+    decimal examStudentScore_ = 0;       //--переменная для отображения отметки без дополнительных баллов//
+    decimal extraCreditScore_ = 0;       //--переменная для отображения числа без доп баллов, в поле где указанно кол-во доп баллов// 
+    decimal differenceScore_ = 0;        //--переменная для отображения кол-ва баллов которые добавляются за доп задания// 
 
     string grade(decimal currentStudentGrade)
     {
@@ -93,7 +93,7 @@ foreach (string name in studentNames)
 
     currentStudentGrade = (decimal)sumAssignmentScores / examAssignments;
 
-    Console.WriteLine($"{currentStudent}:\t\t{examStudentScore}\t\t{currentStudentGrade}\t{grade(currentStudentGrade)}\t {extraCreditScore} ({differenceScore} pts)");
+    Console.WriteLine($"{currentStudent}:\t\t{examStudentScore_}\t\t{currentStudentGrade}\t{grade(currentStudentGrade)}\t {extraCreditScore_} ({differenceScore_} pts)");
 
 }
 

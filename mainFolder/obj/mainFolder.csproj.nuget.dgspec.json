@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\myProg2\\mainFolder\\mainFolder.csproj": {}
+    "D:\\GitHubRepo\\myProg2\\mainFolder\\mainFolder.csproj": {}
   },
   "projects": {
-    "D:\\Git\\myProg2\\mainFolder\\mainFolder.csproj": {
+    "D:\\GitHubRepo\\myProg2\\mainFolder\\mainFolder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\myProg2\\mainFolder\\mainFolder.csproj",
+        "projectUniqueName": "D:\\GitHubRepo\\myProg2\\mainFolder\\mainFolder.csproj",
         "projectName": "mainFolder",
-        "projectPath": "D:\\Git\\myProg2\\mainFolder\\mainFolder.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\myProg2\\mainFolder\\obj\\",
+        "projectPath": "D:\\GitHubRepo\\myProg2\\mainFolder\\mainFolder.csproj",
+        "packagesPath": "C:\\Users\\Desva\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubRepo\\myProg2\\mainFolder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Desva\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
